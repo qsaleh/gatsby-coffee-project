@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from '../components/global/BackgroundSection'
+import Info from '../components/Home/info'
 
 const IndexPage = ({data}) => (
   <Layout>
@@ -11,6 +12,7 @@ const IndexPage = ({data}) => (
     <BackgroundSection 
     img={data.img.childImageSharp.fluid} title="regular joe's" styleClass="default-background" 
     />
+    <Info />
   </Layout>
 )
 
