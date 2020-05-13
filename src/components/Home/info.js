@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Title from '../global/title'
+import Title from '../global/Title'
 
 export default function info() {
   return (
